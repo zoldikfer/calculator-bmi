@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- JUDUL WEBSITE -->
+<header class="main-header">
+    <h1> KALKULATOR BMI </h1>
+</header>
+
+<!-- KONTEN WEBSITE -->
+<main>  
+<!-- Section Form Kalkulator BMI -->
+
+<section class="main-section">
+    <!-- MAIN artikel -->
+    <article>
+    <p> Bera badan ideal adalah impian semua orang. tidak hanya
+    memiliki bentuk tubuh yang menunjang penampilan.</p>
+    </article>
+<!-- main form -->
+    <form>
+        <div class="form-item">
+            <label for="berat-badan-input">
+                BERAT BADAN (kg) :
+            </label>
+            <input type="number" id="berat-badan-input" />
+        </div>
+    
+        <div class="form-item">
+            <label for="usia-input">
+                USIA (TAHUN)  :
+            </label>
+            <input type="number" id="usia-input" />
+        </div>
+
+        <div class="form-item">
+            <label for="tinggi-badan-input">
+                TINGGI BADAN (cm) :
+            </label>
+            <input type="number" id="tinggi-badan-input" />
+        </div>
+
+<!-- Pilihan Jenis Kelamin -->
+    <div class="form-item">
+        <label>JENIS KELAMIN :</label>
+        <label for="laki-laki">
+            <input type="radio" name="jenis-kelamin" id="laki-laki" value="laki-laki" checked /> Laki-laki
+        </label>
+        <label for="perempuan">
+            <input type="radio" name="jenis-kelamin" id="perempuan" value="perempuan" /> Perempuan
+        </label>
+    </div>
+
+
+        <div class="form-button-container">
+            <button class="bg-cadet-blue color-antique-white"> HITUNG BMI</button>
+            <button class="bg-alice-blue">RESET</button>
+        </div>
+
+    </form>
+
+    <!-- Second Artikel --> 
+    <article>
+        <header>
+            <h2>KEUNGGULAN FITUR </h2>
+        </header>
+        <p> 1.Menghitung berat badan <br>
+            2.Menentukan kategori berat badan ideal atau tidak<br>
+            3.Mempersiapkan program penurunan berat badan
+        </p>
+    </article>
+</section>
+
+
+
+ 
+
+
+<!-- section HASIL kalkulasi -->
+<section class="main-section">
+    <div>
+        <header >
+            <h3>HASIL</h3>
+        </header>
+
+
+        <p>BERAT BADAN LEBIH</p>
+
+
+        <div id="result-calculation"> 0 </div>
+
+        <p id="info-result" color="black">ANDA MEMILIKI BERAT BADAN </p>
+    </div>
+
+
+  <!-- THIRD ARTIKEL -->
+    <article>
+        <p> <br>Cara terbaik untuk menurunkan berat badan adalah
+        dengan mengatur kalori makanan yang dikonsumsi dan berolahraga</p>
+        <p> <br>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang</p>
+    </article> 
+</section>
+
+
+</main>
+
+<!--FOOTER WEBSITE -->
+<footer> 
+ <p> CREATE BY FERRY @2024</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
